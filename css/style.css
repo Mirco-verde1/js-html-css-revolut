@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+.navbar{
+  width: 90%;
+  height: 42px;
+  background: red;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-left{
+  width: 35%;
+
+}
+
+.navbar-right{
+  width: 40%;
+}
+
+.navbar-left ul li , .navbar-left img{
+  display: inline-block;
+  vertical-align:middle;
+  font-size: 18px;
+}
+
+.switch-off{
+  display: none;
+}
+
+.navbar-right > ul > li{
+  display: inline-block;
+  line-height: 42px;
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+/* PRIMO BOX CHE CONTIENE IL MENU A TENDINA */
+.box-dropdown1{
+  width: 630px;
+  height: 400px;
+  position: absolute;
+  right: 180px;
+  background: aliceblue;
+}
+
+
+.features-list1,.features-list2,.features-list3,.features-list4{
+  float: left;
+}
+
+.box-dropdown1 ul li{
+list-style: none;
+padding-left: 30px;
+}
+
+
+/* INIZIO SECONDO BOX MENU A TENDINA */
+.box-dropdown2{
+  width: 180px;
+  height: 300px;
+  position: absolute;
+  background: aliceblue;
+  right: 27%;
+
+}
+
+.plans-list  li{
+list-style: none;
+text-align: center;
+}
+
+
+/* INIZIO TERZO BOX CON MENU A TENDINA */
+
+.box-dropbox3{
+  width: 200px;
+  height: 500px;
+  position: absolute;
+  background: aliceblue;
+  right: 21%;
+
+}
+
+.aboutus-list li{
+  list-style: none;
+  text-align: center;
+  }
+
+
+/* INIZIO QUARTO BOX CON MENU A TENDINA */
+
+.box-dropbox4{
+  width: 170px;
+  height: 250px;
+  position: absolute;
+  background: aliceblue;
+  right: 17%;
+
+
+
+}
+
+.help-list li{
+  list-style: none;
+  text-align: center;
+}
