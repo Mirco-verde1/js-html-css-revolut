@@ -4,7 +4,7 @@ $(document).ready(function() {
   // PULSANTE FEATURES PER DROPDOWN MENU
   $('.press-dropdown1').click(function() {
 
-    $('.box-dropdown1').toggle(900)
+    $('.box-dropdown1').toggle(500)
 
   });
 
@@ -13,7 +13,7 @@ $(document).ready(function() {
   // PULSANTE PLANS PER DROPDOWN MENU
   $('.press-dropdown2').click(function() {
 
-    $('.box-dropdown2').toggle(900)
+    $('.box-dropdown2').toggle(400)
 
   });
 
@@ -22,16 +22,15 @@ $(document).ready(function() {
   // PULSANTE ABOUT US PER DROPDOWN MENU
   $('.press-dropdown3').click(function() {
 
-    $('.box-dropbox3').toggle(900)
+    $('.box-dropbox3').toggle(400)
 
   });
 
-  s
 
   // PULSANTE HELP PER DROPDOWN MENU
   $('.press-dropdown4').click(function() {
 
-    $('.box-dropbox4').toggle(900)
+    $('.box-dropbox4').toggle(400)
 
   });
 
